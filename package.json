@@ -1,0 +1,11 @@
+{
+  "name": "agora",
+  "version": "1.0.0",
+  "description": "A student created peer-to-peer trading platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edgar Arakelyan",
+  "license": "MIT"
+}
