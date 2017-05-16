@@ -5,7 +5,7 @@ var path = require("path");
 app.set('port', (process.env.PORT || 5000));
 
 
-app.use(myLogger);
+
 app.use(express.static(path.join(__dirname+"/views")));
 app.use(express.static(path.join(__dirname+"/styles")))
 app.use(express.static(path.join(__dirname+"/javascript")))
